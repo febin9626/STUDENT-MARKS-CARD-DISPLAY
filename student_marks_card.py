@@ -1,15 +1,5 @@
 """
 STUDENT MARKS CARD & PERFORMANCE REPORT SYSTEM
---------------------------------------------------
-A complete, pure Python application to calculate and display student marks cards.
-
-HOW TO RUN & DEBUG IN VS CODE:
-1. Open this file (student_marks_card.py) in VS Code.
-2. Set a breakpoint on any line by clicking to the left of the line number (a red dot appears).
-3. Press F5 (or choose 'Run' -> 'Start Debugging' from the top menu).
-4. VS Code will automatically start the Python debugger and stop at your breakpoints.
-5. In the Integrated Terminal, you can interact with the menu by typing 1 to 6.
---------------------------------------------------
 """
 
 import sys
