@@ -1,10 +1,8 @@
 # Student Marks Card System (Python)
 
-Hi! This is a simple Python project I made to calculate and display student marks cards (report cards) in the terminal.
+This is a simple Python project I made to calculate and display student marks cards in the terminal.
 
 It takes student details and subject marks, then automatically calculates the total marks, percentage, CGPA (on a 10-point scale), grades, and pass/fail division. It prints everything in a neat, aligned marks card format.
-
-I built this using only standard Python 3. You don't need to do any `pip install` or download any third-party libraries—it runs directly out of the box!
 
 ---
 
@@ -34,7 +32,7 @@ I built this using only standard Python 3. You don't need to do any `pip install
 
 You can run and debug this directly in VS Code without any extra setup:
 
-1. Open this project folder in VS Code (`code .`).
+1. Open this project folder in VS Code.
 2. Open `student_marks_card.py`.
 3. Click to the left of any line number to put a red breakpoint dot.
 4. Press **F5** (or click **Run > Start Debugging**).
@@ -66,15 +64,15 @@ python3 test_marks.py -v
 
 ## Grading Table
 
-| Marks Range (%) | Grade | Grade Point | Remarks |
-|:---:|:---:|:---:|---|
-| 90% and above | A+ | 10.0 | Outstanding |
-| 80% to 89% | A | 9.0 | Excellent |
-| 70% to 79% | B+ | 8.0 | Very Good |
-| 60% to 69% | B | 7.0 | Good |
-| 50% to 59% | C | 6.0 | Average |
-| 40% to 49% | D | 5.0 | Satisfactory |
-| Below 40% | F | 0.0 | Fail |
+| Marks Range (%) | Grade | Grade Point |   Remarks    |
+________________________________________________________
+| 90% and above   | A+    | 10.0        | Outstanding  |
+| 80% to 89%      | A     | 9.0         | Excellent    |
+| 70% to 79%      | B+    | 8.0         | Very Good    |
+| 60% to 69%      | B     | 7.0         | Good         |
+| 50% to 59%      | C     | 6.0         | Average      |
+| 40% to 49%      | D     | 5.0         | Satisfactory |
+| Below 40%       | F     | 0.0         | Fail         |
 
 ---
 
@@ -84,7 +82,3 @@ python3 test_marks.py -v
 - `students_data.py` - Contains the saved student data in simple Python format.
 - `main.py` - Simple launcher file.
 - `test_marks.py` - Unit test cases to test the grading calculations.
-
----
-
-Made with pure Python. Hope this is helpful!
